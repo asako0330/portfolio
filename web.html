@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+
+<link href="stylesheet-web.css" rel="stylesheet" type="text/css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js">
+</script>
+
+<script type="text/javascript" src="froogaloop2.min.js"></script>
+
+<script type="text/javascript" src="html5lightbox.js"></script>
+
+<script type="text/javascript">
+    var html5lightbox_options = {
+        watermark: "logo_color.png",
+        watermarklink: ""
+    };
+</script>
+
+<title>Web Design</title>
+
+</head>
+
+<body>
+<div id="logo" align="center">
+<a href="index.html">
+<img src="logo_color.png" width="120" height="120" alt="Logo"/>
+</a>
+</div>
+
+<h4 align="center">Print. Multimedia. Web Design.</h4>
+
+<div class="sns">
+	<div id="tumblr">
+	<a href="http://sako-saki.tumblr.com" target="_blank">
+	<img src="tumblr_logo.png" width="40" height="40" alt="tumblr"/>
+	</a>
+	</div>
+
+    <div id="instagram">
+    <a href="https://www.instagram.com/sako.saki" target="_blank">
+    <img src="instagram_logo.png" width="40" height="40" alt="instagram"/>
+    </a>
+    </div>
+    
+    <div id="linkedin">
+    <a href="https://www.linkedin.com/in/asako-sasaki-perez-59077965" target="_blank">
+    <img src="linkedin_logo.png" alt="linkedin"/>
+    </a>
+    </div>
+
+</div>
+
+<ul>
+  <li><a href="contact.html">Contact</a></li>
+  <li><a href="about.html">About</a></li>
+  <div class="dropdown">
+  <li><a href="index.html"><div class="dropbtn">Portfolio</div></a></li>
+    <div class="dropdown-content">
+      <a href="print.html">Print</a>
+      <a href="multimedia.html">Multimedia</a>
+      <a href="web.html">Web</a>
+    </div>
+  </div>
+</ul>
+
+<div id="container" align="center">
+
+<div id="swf1">
+<a href="sloth.swf" class="html5lightbox">
+<img src="sloth_thumb.png" width="70%" alt="Thumbnail"/>
+<p style="margin-top:-1px"><strong>Sloth Life Web Site</strong></p></a>
+</div>
+
+
+<div id="swf2" style="margin-top:50px">
+<a href="vomfass.swf" class="html5lightbox"><img src="vomfass_thumb.png" width="60%" alt="Thumbnail"/>
+<p style="margin-top:-1px"><strong>Vom Fass Ad Banner<br>(Not official, Made for my class assignment)</strong></p></a>
+</div>
+
+
+<div id="swf3" style="margin-top:50px">
+<a href="Print/Sasaki-Perez_id3.swf" class="html5lightbox"><img src="suhi_thumb.png" width="60%" alt="Thumbnail"/>
+<p style="margin-top:-1px"><strong>Sushi Advertisement<br>(Fake Company, Made for my class assignment)</strong></p></a>
+</div>
+
+</div>
+
+<script>
+
+function imgError(image) {
+    image.onerror = "";
+    image.src = "closing_button.png";
+    return true;
+}
+
+</script>
+
+</body>
+
+<footer><div id="copyright">
+<em><p>Plug in by <a href="https://html5box.com/index.php" style="text-decoration:none; color:#d1d1d1">HTML5 LightBox</a></p>
+<p>Copyright© 2016 Asako Sasaki-Perez All Rights Reserved</p></em></div>
+</footer>
+
+</html>
