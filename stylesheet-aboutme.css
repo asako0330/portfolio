@@ -12,7 +12,10 @@ body {
 	
 #logo a:hover {
 	filter: hue-rotate(280deg);
-	-webkit-filter: hue-rotate(280deg);}
+	-webkit-filter: hue-rotate(280deg);
+	-moz-filter: hue-rotate(280deg);
+    	-ms-filter: hue-rotate(280deg);
+    	-o-filter: hue-rotate(280deg);}
 	
 h4 {
 	color: #7D7D7D;
