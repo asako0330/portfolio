@@ -114,11 +114,9 @@ li a:hover {background-color: #7D7D7D;}
 .thumbnail a:hover {
 	opacity: 0.6;
 	display: inline-block;
-	trasform: scale(1.05);
-	-webkit-trasnform: scale(1.05);
-	-moz-transform: scale(1.05);
-	-ms-transform: scale(1.05);
-	-o-transform: scale(1.05);}
+	-ms-transform: scale(1.05,1.05); 
+    	-webkit-transform: scale(1.05,1.05);
+    	transform: scale(1.05,1.05);}
 
 .container {
 	width: auto;
