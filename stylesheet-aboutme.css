@@ -163,7 +163,8 @@ h3 {
 #copyright {
 	color: #d1d1d1;
 	text-align: center;
-	width: 100%; 
+	width: 100%;
+	position: absolute;
 	bottom: 0px;
 	font-family: Courier;}
 	
