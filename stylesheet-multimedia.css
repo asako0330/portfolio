@@ -121,7 +121,8 @@ li a:hover {background-color: #7D7D7D;}
 #copyright {
 	color: #d1d1d1;
 	text-align: center;
-	width: 100%; 
+	width: 100%;
+	position: absolute;
 	bottom: 0px;
 	font-family: Courier;
 	clear: both;}
