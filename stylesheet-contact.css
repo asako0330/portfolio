@@ -119,16 +119,17 @@ input[type=text]:focus {
 	border-radius: 4px;}
 
 input[type=submit] {
-	font-family: Courier;
-	font-size: 0.9em;
-	background-color: #68CCE1;
+    font-family: Courier;
+    font-size: 1em;
+    background-color: #68CCE1;
     border: none;
     color: white;
-    padding: 10px 10px;
+    padding: 20px 20px;
     text-decoration: none;
     margin: 4px 2px;
-	border-radius: 4px;
-    cursor: pointer;}
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 10px 10px 5px #7D7D7D;}
 	
 textarea {
     font-size: 0.9em;
